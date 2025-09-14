@@ -1,0 +1,11 @@
+/* inDrive vibe: тёмный фон + зелёные акценты */
+:root { --indrive:#22c55e; --ink:#e2e8f0; }
+.gradio-container { max-width: 1200px; }
+h1.title { margin: 6px 0 12px }
+.card { background:#0b1220; border:1px solid #1f2937; border-radius:12px; padding:14px }
+.badges { display:flex; flex-wrap:wrap; gap:6px; margin-top:6px }
+.badge { padding:4px 8px; border-radius:999px; font-size:12px; border:1px solid #243244 }
+.badge.qf { background:#102115; color:#b7e4c7; border-color:#1c3c25 }
+.meter { height:14px; border-radius:8px; background:#1f2937; overflow:hidden; margin-top:6px }
+.meter>div { height:100%; background:linear-gradient(90deg,#22c55e,#84cc16,#eab308,#ef4444) }
+footer.small { opacity:.7; margin-top:12px; font-size:12px }
