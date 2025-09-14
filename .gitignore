@@ -3,9 +3,12 @@ __pycache__/
 *.pyc
 
 # Weights and runs
-weights/
 runs/
+
+# Игнорировать все pt кроме нужных
 *.pt
+!weights/damage_rust.pt
+!weights/damage_v2.pt
 
 # Colab / notebooks noise
 .ipynb_checkpoints/
