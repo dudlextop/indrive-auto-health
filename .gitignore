@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Weights and runs
+weights/
+runs/
+*.pt
+
+# Colab / notebooks noise
+.ipynb_checkpoints/
+*.checkpoint
